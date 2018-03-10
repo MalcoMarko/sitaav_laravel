@@ -13,10 +13,11 @@
         <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         -->
         <style type="text/css">
-         .bg-sitaav{background-color: #874442 !important;}  
+         .bg-sitaav{background-color: #874442 !important;}
        </style>
     </head>
-    <body class="fixed-nav sticky-footer bg-sitaav" id="page-top"">
+    <body>
+  <main class="fixed-nav sticky-footer bg-sitaav" id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-sitaav fixed-top" id="mainNav">
     <a class="navbar-brand" href="#">PANEL SITAAV.ORG</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +25,20 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
 
-      @include('layouts.menus.docente1')
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+        <li class="nav-item">
+          <div class="d-flex justify-content-center">
+            <div class="col" style="padding-bottom: 10px;padding-top: 10px;border: 1px solid #fff;border-left: 0px;">
+              <img src="{{asset('img/sitaav.png')}}" class="img-fluid" />
+            </div>
+          </div>
+        </li>
+
+          @include('layouts.menus.docente1')
+
+      </ul>
+
+
       <ul class="navbar-nav sidenav-toggler">
         <li class="nav-item">
           <a class="nav-link text-center" id="sidenavToggler">
@@ -36,7 +50,7 @@
       <span class="navbar-text">
           Sistema Integral de Tecnologías para el Aprendizaje en Aulas Virtuales
       </span>
-      <ul class="navbar-nav ml-auto">         
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-fw fa-envelope"></i>
@@ -76,15 +90,31 @@
   </nav>
   <div class="content-wrapper">
     <div class="container-fluid">
-      @include('layouts.menus.docente2')
-      
+      <nav class="navbar navbar-expand-lg navbar-light" id="navIconos">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvaricon" aria-controls="nvaricon" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="nvaricon">
+
+                  @include('layouts.menus.docente2')
+
+              </div>
+            </nav>
+
+      <div class="row" id="Cprincipal">
 
 
-       
+        @yield('content')
+
+
+
+      </div>
+
     </div>
   </div>
 
         <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
         <script type="text/javascript" src="{{asset('js/sb-admin.js')}}"></script>
+  </main>
     </body>
 </html>

@@ -8,14 +8,8 @@
             <li class="nav-item text-center">
               <a class="nav-link" href="#"><i class="fa fa-envelope fa-lg"></i> <br> Mesajes</a>
             </li>
-            <li class="nav-item text-center">
-              <a class="nav-link" href="#"><i class="fa fa-columns fa-lg"></i> <br>Proyectos</a>
-            </li>
              <li class="nav-item text-center">
               <a class="nav-link" href="#"><i class="fa fa-briefcase fa-lg"></i> <br>Carpeta</a>
-            </li>
-             <li class="nav-item text-center">
-              <a class="nav-link" href="#"><i class="fa fa-briefcase fa-lg"></i> <br>Zona TIC</a>
             </li>
              <li class="nav-item text-center">
               <a class="nav-link" href="#"><i class="fa fa-book fa-lg"></i> <br> Bibloteca</a>
@@ -29,13 +23,10 @@
             <li class="nav-item text-center">
               <a class="nav-link" href="#"><i class="fa fa-graduation-cap fa-lg"></i> <br>Certificaciones</a>
             </li>
-          <li class="nav-item text-center">
+            <li class="nav-item text-center">
               <a class="nav-link" href="#"><i class="fa fa-university fa-lg"></i> <br>P.L.R</a>
             </li>
-          <li class="nav-item text-center">
+            <li class="nav-item text-center">
               <a class="nav-link" href="#"><i class="fa fa-subscript fa-lg"></i> <br>M.R.M</a>
-            </li>
-          <li class="nav-item text-center">
-              <a class="nav-link" href="#"><i class="fa fa-pen-square fa-lg"></i> <br>Notas</a>
             </li>
           </ul>

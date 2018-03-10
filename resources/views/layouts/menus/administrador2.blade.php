@@ -3,13 +3,13 @@
               <a class="nav-link" href="#"><i class="fa fa-laptop fa-lg"></i> <br> Perfil</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link" href="#"><i class="fa fa-calendar fa-lg"></i> <br>Horario</a>
+              <a class="nav-link" href="#"><i class="fa fa-calendar fa-lg"></i> <br>+Docentes</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link" href="#"><i class="fa fa-envelope fa-lg"></i> <br> Mesajes</a>
+              <a class="nav-link" href="#"><i class="fa fa-envelope fa-lg"></i> <br>+Instituciones</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link" href="#"><i class="fa fa-columns fa-lg"></i> <br>Proyectos</a>
+              <a class="nav-link" href="#"><i class="fa fa-columns fa-lg"></i> <br>+Alumnos</a>
             </li>
              <li class="nav-item text-center">
               <a class="nav-link" href="#"><i class="fa fa-briefcase fa-lg"></i> <br>Carpeta</a>

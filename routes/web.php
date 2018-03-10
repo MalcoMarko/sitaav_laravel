@@ -14,10 +14,14 @@
 Route::get('/', function () {
     return view('layout.panel1');
 });
-Route::get('/docente', function () {
-    return view('layouts.paneladmin');
+Route::get('/plataforma/institucion', function () {return view('plataforma.institucion.perfil');
 });
+Route::get('/plataforma/campusvirtual', function () {return view('plataforma.campusvirtual');})->name('campusvirtual');
+Route::get('/plataforma/agenda', function () {return view('plataforma.institucion.agenda');})->name('agenda');
 
+
+Route::get('/plataforma/docentes', function () {return view('plataforma.docentes.perfil');
+});
 /*
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
@@ -36,4 +40,3 @@ Route::resource('docentes','DocenteController');
 
 
 Route::get('/tdocentes',['as' => 'docentes.principal','uses' => 'DocenteController@principal']);
-
